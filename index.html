@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Word Scramble</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10"></link>
+</head>
+<body>
+  <div class="container">
+    <h2>Word Scramble</h2>
+    <hr>
+    <div class="content">
+      <div class="difficulty-buttons">
+        <button class="easy-btn">Easy</button>
+        <button class="hard-btn">Hard</button>
+      </div>
+      <p class="word"></p>
+    </div>
+
+    <div class="details">
+      <p class="hint"> Hint: <span></span> </p> 
+      <p class="time"> Time Left: <span><b>30</b>s</span></p>
+    </div>
+
+    <input type="text" pellcheck="false" placeholder="Enter a valid word"/>
+
+    <div class="buttons">
+      <button class="refresh">Refresh Word</button>
+      <button class="check">Check Word</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
